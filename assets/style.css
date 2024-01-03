@@ -125,6 +125,43 @@ li:hover {
 	text-align: center;
 	margin-bottom: 1em;
 }
+/*filtered-button*/
+.categories{
+	margin: 60px 60px;
+}
+.categories-button {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); /* Crée 4 colonnes égales */
+	gap: 10px; /* Espacement entre les boutons, ajustez selon vos besoins */
+	list-style: none; /* Supprime les puces de la liste */
+	padding: 0; /* Supprime le remplissage par défaut de la liste */
+	margin: 0 auto; /* Centre la liste horizontalement en utilisant 'auto' pour les marges gauche et droite */
+	max-width: 800px; /* Ajoutez la largeur maximale souhaitée */
+	width: 100%;
+  }
+  
+  .button {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	color: #1D6154;
+	font-family: Syne;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	border: 1px solid #1D6154;
+	text-decoration: none;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+	background-color: #1D6154;
+	color: white;
+  }
+  
 .gallery {
 	width: 100%;
 	display: grid;
